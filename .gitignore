@@ -1,2 +1,8 @@
+# Ignore node modules
 node_modules
+
+# Ignore logs
 *.log
+
+# Ignore compiles contracts
+contracts/bin
