@@ -1,6 +1,4 @@
-# This is branch main
-
-# blockchain
+# Introduction
 Blockchain projects
 
 ## Smart Contracts
