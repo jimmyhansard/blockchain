@@ -9,10 +9,7 @@ async function main() {
     const provider = new ethers.providers.JsonRpcProvider(RPC_SERVER);
 
     let block_number = await provider.getBlockNumber();
-    console.log(`Block number:${block_number}.`);
-
-    let balance = await provider.getBalance('ethers.eth');
-    console.log(`Balance ${balance}`);
+    console.log(`Block number:${block_number}.`);   
     
 }
 
